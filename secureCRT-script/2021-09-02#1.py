@@ -7,7 +7,7 @@ import  os
 #file_dir = 'D:\\BaiduNetdiskDownload\\2021-08-24\\'
 #file_list = os.listdir(file_dir)
 file_prefix = 'D:\\BaiduNetdiskDownload\\'
-sec_numer = 5  #当前文件夹切换为5个部分上传
+sec_numer = 2  #当前文件夹切换为2个部分上传
 
 
 #__file__  当前执行程序目录文件名，包含绝对路径
