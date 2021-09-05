@@ -26,8 +26,9 @@ ar_file_list            =  os.listdir( file_full_dir_prefix )
 for i  in range ( 0,  len( ar_file_list ) ):
 #   if i %  sec_numer  == sec_seq :
       file_abs_path = os.path.join( file_full_dir_prefix, ar_file_list[i] )  #D:\BaiduNetdiskDownload\2020-03-10\534679-535021-v2.ar
-    # crt.Dialog.MessageBox( file_abs_path )
-      crt.FileTransfer.AddToUploadList( file_abs_path ) 
+    #  crt.Dialog.MessageBox( file_full_dir_prefix )
+    #  crt.FileTransfer.AddToUploadList( file_abs_path ) 
+      crt.FileTransfer.AddToUploadList( file_full_dir_prefix ) 
       crt.Screen.Send("rz\n")
 
 
