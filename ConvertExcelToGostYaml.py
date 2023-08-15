@@ -1,6 +1,7 @@
 import openpyxl
 import subprocess
 import sys
+#uaage eg：  python3  ConvertExcelToGostYaml.py   20230814-USIPs[execl name]  IPs5[excel sheet name]
 
 if len(sys.argv) < 3:
    print("Please provide at least two parameters:  xlsx name, sheet name") 
